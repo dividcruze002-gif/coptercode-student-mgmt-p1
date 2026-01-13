@@ -5,6 +5,7 @@ const studentSchema = new mongoose.Schema({
     roll: String,
     department: String,
     email: String,
+    
 }, 
 {timestamps: true})
 
